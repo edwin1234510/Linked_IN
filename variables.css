@@ -1,0 +1,9 @@
+:root{
+  --color_fondo_header: #fff;
+  --color_fondo_search: #edf3f8;
+  --color_blanco: #fff;
+  --color_container_icono: #5f5f5f;
+  --color_border_container_icono: #343434;
+  --color_estado_perfil: #6ff63e;
+  --color_fondo_perfil_desplegado: #5f5f5f;
+}
