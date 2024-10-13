@@ -1,4 +1,5 @@
 :root{
+  --color_fondo_pagina: #f4f2ee;
   --color_fondo_header: #fff;
   --color_fondo_search: #edf3f8;
   --color_blanco: #fff;
@@ -6,4 +7,14 @@
   --color_border_container_icono: #343434;
   --color_estado_perfil: #6ff63e;
   --color_fondo_perfil_desplegado: #5f5f5f;
+  --color_negro: #000;
+  --color_gris_claro: #777;
+  --color_visitas_azules: #2874b1;
+  --linea_gris: #ef2a2a;
+  --color_azul: #2874b1;
+  --color_amarillo: #f8b007;
+  --color_celeste_hover: #edf3f8;
+  --color_linea: #ccc;
+  --color_links: #5f5f5f;
+  --color_texto_actividad: #888;
 }
