@@ -16,6 +16,10 @@
   height: 55px;
   background-color: var(--color_fondo_header);
   box-shadow: 0 5px 10px rgba(0,0,0,0.1) ;
+  top: 0;
+  padding: 0 10px;
+  z-index: 100;
+  position: fixed;
 }
 .container_header{
   display: flex;
@@ -113,18 +117,68 @@
   right: -4px;
   position: absolute;
 }
-/* .perfil_desplegable{
-  width: 320px;
-  height: 400px;
-  position: absolute;
-  top: 55px;
-  right: 230px;
-  background-color: var(--color_fondo_perfil_desplegado);
-} */
+.profileMenu:checked + .perfil-flotante{
+  display: block;
+}
+.perfil-flotante{
+  width: 300px;
+  height: min-content;
+  background-color: var(--color_perfil_flotante);
+  position: fixed;
+  z-index: 1;
+  right: 380px;
+  top: 30px;
+  padding: 20px;
+  margin: 25px;
+  display: none;
+  
+}
+.profileMenu[type="checkbox"]{
+  opacity: 0;
+}
+.perfil-flotante__fotoNombre{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.perfil-flotante__foto{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.perfil-flotante__nombre{
+  font-weight: 500;
+  margin-bottom: -7px;
+  color: var(--color_blanco);
+}
+.perfil-flotante__pagina2{
+  color: var(--color_letras_link);
+  font-size: 13px;
+  text-decoration: none;
+}
+.perfil-flotante-opcion{
+  display: flex;
+  align-items: center;
+  color: var(--color_blanco);
+  margin: 12px 0;
+  font-size: 14px
+}
+.perfil-flotante-opcion__icono{
+  font-size: 22px;
+  padding: 5px 6px;
+  border-radius: 50px;
+  margin-right: 15px;
+  background-color: var(--color_fondo_icono);
+  color: var(--color_gris_oscuro);
+}
+.perfil-flotante-opcion__texto{
+  width: 100%;
+}
 .container{
   max-width: 1200px; 
   width: 100%;
-  margin: 20px auto;
+  margin: 80px auto;
   padding: 0 10px;
 }
 .content_layout{
@@ -498,7 +552,7 @@
 }
 .sidebar-pegajoso{
   position: sticky;
-  top: 25px;
+  top: 70px;
 }
 .anuncio-cebra{
   background-color:var(--color_blanco);
@@ -564,4 +618,9 @@
 }
 .sidebar-derechos-autor__texto{
   color: var(--color_gris_claro);
+}
+.devolver_inicio{
+  width: 35px;
+  height: 35px;
+  margin-right: 13px;
 }

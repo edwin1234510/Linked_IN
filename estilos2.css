@@ -1,0 +1,12 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 80px auto;
+    padding: 0 10px;
+}
