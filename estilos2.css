@@ -1,12 +1,201 @@
 @import url(variables.css);
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 .container{
-    max-width: 1200px;
-    width: 100%;
-    margin: 80px auto;
-    padding: 0 10px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 80px auto;
+  padding: 0 10px;
+}
+.content-perfil{
+  display: grid;
+  grid-template-areas: 
+  'main sidebar-perfil' 
+  'footer footer';
+  grid-template-columns: 1fr 280px;
+  gap: 1rem;
+  height: 100vh;
+}
+.perfil-usuario{
+  background-color: var(--color_blanco);
+  color: var(--color_parrado_perfil);
+}
+.perfil-usuario__imagen{
+  width: 100%;
+  height: 270px;
+}
+.perfil-usuario-interno{
+  padding-left: 35px;
+  height: 316px;
+}
+.perfil-usuario-interno__foto{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: -75px;
+  padding: 5px;
+  background-color: var(--color_blanco);
+}
+.perfil-usuario-interno__nombre{
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--color_texto_oscuro);
+}
+.perfil-usuario-interno__descripcion{
+  font-weight: 500;
+}
+.perfil-usuario-interno__link{
+  text-decoration: none;
+  color: var(--color_azul);
+  cursor: pointer;
+}
+.conexion{
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+.conexion__foto{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.perfil-botones{
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+}
+.perfil-botones__boton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 6px;
+  border-radius: 4px;
+  margin-right: 10px;
+  background-color: var(--color_fondo_icono);
+  color: var(--color_gris_oscuro);
+  height: 37px;
+  width: 122px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.perfil-botones__icono{
+  font-weight: 400;
+  margin-right: 8px;
+}
+.perfil-botones__boton:nth-child(1){
+  background-color: var(--color_azul);
+  color: var(--color_blanco);
+}
+.usuario-descripcion{
+  background-color: var(--color_blanco);
+  padding: 20px 4% 30px;
+  margin: 12px 0;
+  color: var(--color_gris_oscuro);
+}
+.usuario-descripcion__titulo{
+  color: var(--color_negro);
+  margin: 10px 0 20px;
+}
+.usuario-descripcion__link{
+  text-decoration: none;
+  display: block;
+  text-align: right;
+  color: var(--color_parrado_perfil);
+}
+.experiencia{
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0;
+  color: var(--color_parrado_perfil);
+}
+.experiencia__imagen{
+  width: 50px;
+  height: 50px;
+  margin-right: 25px;
+  margin-top: 5px;
+}
+.experiencia__descripcion{
+  width: 100%;
+}
+.experiencia__titulo{
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color_negro);
+}
+.experiencia__tiempo{
+  display: block;
+  font-weight: 500;
+  font-size: 15px;
+}
+.experiencia__parrafo{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.experiencia-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  font-weight: 500;
+  color: var(--color_parrado_perfil);
+  cursor: pointer;
+}
+.experiencia-link__icono{
+  margin-left: 8px;
+  font-size: 20px;
+}
+.educación{
+  margin-bottom: 10px;
+}
+.usuario-descripcion__boton{
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 6px 18px;
+  border: 1px solid var(--color_gris_claro);
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--color_gris_oscuro);
+}
+.usuario-descripcion__idioma{
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 6px 18px;
+  background-color: var(--color_fondo_idioma);
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--color_gris_oscuro);
+}
+.anuncio-cebra{
+  margin: 0px 0px;
+}
+.sidebar-gente{
+  background-color: var(--color_blanco);
+}
+.sidebar-gente__titulo{
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0 20px;
+  color: var(--color_gris_oscuro);
+}
+.sidebar-gente-descripcion__foto{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.sidebar-gente-descripcion{
+  display: flex;
+}
+.sidebar-gente-informacion__nombre{
+  font-size: 16px;
+  font-weight: 500;
+}
+.sidebar-gente-informacion__parrafo{
+  font-size: 12px;
 }

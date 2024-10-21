@@ -22,7 +22,10 @@
   --color_verde: #4a9108;
   --color_rojo: #af0000;
   --flecha: #343434;
-  --color_fondo_icono: #ccc;
+  --color_fondo_icono: #e4e6eb;
   --color_perfil_flotante: #222;
   --color_letras_link: #c9dbf8;
+  --color_texto_oscuro: #222;
+  --color_parrado_perfil: #5f5f5f;
+  --color_fondo_idioma: #e4e6eb;
 }

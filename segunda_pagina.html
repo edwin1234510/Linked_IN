@@ -1,62 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LinkedIn</title>
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="estilos2.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="estilos2.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
+
 <body class="pagina_in">
-    <header class="header">
-      <div class="container_header">
-        <div class="container_left">
-          <a class="devolver_inicio" href="index.html">
-            <img class="container_left__logo" src="https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png" alt="">
+  <header class="header">
+    <div class="container_header">
+      <div class="container_left">
+        <a class="devolver_inicio" href="index.html">
+          <img class="container_left__logo" src="https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png"
+            alt="">
+        </a>
+        <form class="search">
+          <i class="search__icono ri-search-line"></i>
+          <input class="search__barra-buscador" type="text" placeholder="Buscar">
+        </form>
+      </div>
+      <div class="container_right">
+        <div class="container_icono">
+          <i class="container_icono__iconos ri-home-4-fill"></i>
+          <span class="container_icono__texto">inicio</span>
+        </div>
+        <div class="container_icono">
+          <i class="container_icono__iconos ri-group-fill"></i>
+          <span class="container_icono__texto">mi red</span>
+        </div>
+        <div class="container_icono">
+          <i class="container_icono__iconos ri-briefcase-4-fill"></i>
+          <span class="container_icono__texto">empleos</span>
+        </div>
+        <div class="container_icono">
+          <i class="container_icono__iconos ri-chat-4-fill"></i>
+          <span class="container_icono__texto">mensaje</span>
+        </div>
+        <div class="container_icono">
+          <i class="container_icono__iconos ri-notification-2-fill"></i>
+          <span class="container_icono__texto">notificaciones</span>
+        </div>
+        <div class="container_perfil">
+          <a href="">
+            <label for="profileMenu">
+              <img class="container_perfil__foto"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkljs1S5Z1JBnaaUTHVKEnzvGgpEmykrS_QA&s"
+                alt="">
+            </label>
           </a>
-          <form class="search">
-            <i class="search__icono ri-search-line"></i>
-            <input class="search__barra-buscador" type="text" placeholder="Buscar">
-          </form>
         </div>
-        <div class="container_right">
-          <div class="container_icono">
-            <i class="container_icono__iconos ri-home-4-fill"></i>
-            <span class="container_icono__texto">inicio</span>
-          </div>
-          <div class="container_icono">
-            <i class="container_icono__iconos ri-group-fill"></i>
-            <span class="container_icono__texto">mi red</span>
-          </div>
-          <div class="container_icono">
-            <i class="container_icono__iconos ri-briefcase-4-fill"></i>
-            <span class="container_icono__texto">empleos</span>
-          </div>
-          <div class="container_icono">
-            <i class="container_icono__iconos ri-chat-4-fill"></i>
-            <span class="container_icono__texto">mensaje</span>
-          </div>
-          <div class="container_icono">
-            <i class="container_icono__iconos ri-notification-2-fill"></i>
-            <span class="container_icono__texto">notificaciones</span>
-          </div>
-          <div class="container_perfil">
-            <a href="">
-              <label for="profileMenu">
-                <img class="container_perfil__foto"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkljs1S5Z1JBnaaUTHVKEnzvGgpEmykrS_QA&s" alt="">
-              </label>
-            </a>
-          </div>
-          <div class="container_perfil__activo"></div>
-        </div>
+        <div class="container_perfil__activo"></div>
       </div>
-      </div>
-      <input type="checkbox" id="profileMenu" class="profileMenu">
+    </div>
+    </div>
+    <input type="checkbox" id="profileMenu" class="profileMenu">
     <div class="perfil-flotante">
       <div class="perfil-flotante__fotoNombre">
-        <img class="perfil-flotante__foto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkljs1S5Z1JBnaaUTHVKEnzvGgpEmykrS_QA&s" alt="">
+        <img class="perfil-flotante__foto"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkljs1S5Z1JBnaaUTHVKEnzvGgpEmykrS_QA&s" alt="">
         <div class="perfil-flotante__link">
           <h3 class="perfil-flotante__nombre">Edwin Villabona</h3>
           <a class="perfil-flotante__pagina2" href="#">Ver tu perfil</a>
@@ -89,9 +95,176 @@
         <i class="perfil-flotante-opcion__flecha ri-arrow-right-s-line"></i>
       </div>
     </div>
-    </header>
-    <main class="content-perfil container">
-
-    </main>
+  </header>
+  <main class="content-perfil container">
+    <div class="main">
+      <div class="perfil-usuario">
+        <img class="perfil-usuario__imagen"
+          src="https://img.freepik.com/vector-gratis/fondo-onda-blanca-suave_52683-55288.jpg?t=st=1729511758~exp=1729515358~hmac=266a47229f78365836fa247b72939892287a2dd9e70b3289914627155fb6478a&w=1380"
+          alt="">
+        <div class="perfil-usuario-interno">
+          <img class="perfil-usuario-interno__foto"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkljs1S5Z1JBnaaUTHVKEnzvGgpEmykrS_QA&s" alt="">
+          <h1 class="perfil-usuario-interno__nombre">Edwin Villabona</h1>
+          <b class="perfil-usuario-interno__descripcion">Desarrollador web en Microsoft | Ex desarrollador en DataStack
+            y pasante en Oracle</b>
+          <p class="perfil-usuario-interno__parrafo">San Francisco, Estados Unidos · <a
+              class="perfil-usuario-interno__link" href="#">Información de contacto</a></p>
+          <div class="conexion">
+            <img class="conexion__foto"
+              src="https://24ai.tech/es/wp-content/uploads/sites/5/2023/10/01_product_1_sdelat-kvadratnym-3-1.jpg"
+              alt="">
+            <span class="conexion__descripcion">1 Conexión mutua: Orlando Diggs</span>
+          </div>
+          <div class="perfil-botones">
+            <div class="perfil-botones__boton"><i
+                class="perfil-botones__icono ri-user-add-line"></i><span>Conectar</span>
+            </div>
+            <div class="perfil-botones__boton"><i
+                class="perfil-botones__icono ri-message-2-fill"></i><span>Mensaje</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="usuario-descripcion">
+        <h2 class="usuario-descripcion__titulo">Acerca de</h2>
+        <p class="usuario-descripcion__parrado">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, vero
+          consectetur. Eaque, veniam perspiciatis fugit
+          magni, hic excepturi exercitationem, placeat soluta obcaecati reiciendis provident? Nulla eius at rerum maxime
+          error
+          quisquam ab, repudiandae consequatur, minima sit voluptatem? Blanditiis, omnis? Tempore beatae molestias animi
+          iusto,
+          voluptates possimus necessitatibus consequuntur non perferendis.</p>
+        <a class="usuario-descripcion__link" href="">Ver más...</a>
+      </div>
+      <div class="usuario-descripcion">
+        <h2 class="usuario-descripcion__titulo">Acerca de</h2>
+        <div class="experiencia">
+          <img class="experiencia__imagen" src="https://foroalfa.org/imagenes/ilustraciones/1296.jpg" alt="">
+          <div class="experiencia__descripcion">
+            <h3 class="experiencia__titulo">Frente principal y desarrollador</h3>
+            <b class="experiencia__tiempo">Microsoft · Tiempo completo</b>
+            <b class="experiencia__tiempo">Junio 2018 - Jn 2021 · 2,6 años</b>
+            <p class="experiencia__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ea ipsam
+              amet sed minima dolore odio accusamus
+              cupiditate doloribus adipisci.</p>
+            <hr>
+          </div>
+        </div>
+        <div class="experiencia">
+          <img class="experiencia__imagen"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaPlbD42KHzVMn8SG2t54umtxYfOz2Mcwm8w&s" alt="">
+          <div class="experiencia__descripcion">
+            <h3 class="experiencia__titulo">Desarrollador web</h3>
+            <b class="experiencia__tiempo">Slack · tiempo completo</b>
+            <b class="experiencia__tiempo">Junio 2018 - Jn 2021 · 2,6 años</b>
+            <p class="experiencia__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ea ipsam
+              amet sed
+              minima dolore odio accusamus
+              cupiditate doloribus adipisci.</p>
+            <hr>
+          </div>
+        </div>
+        <div class="experiencia">
+          <img class="experiencia__imagen"
+            src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt="">
+          <div class="experiencia__descripcion">
+            <h3 class="experiencia__titulo">Frente principal y desarrollador</h3>
+            <b class="experiencia__tiempo">Google Inc · Tiempo completo</b>
+            <b class="experiencia__tiempo">Septiembre 2015 - Mayo 2018 · 2,8 años</b>
+            <p class="experiencia__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ea ipsam
+              amet sed
+              minima dolore odio accusamus
+              cupiditate doloribus adipisci.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="experiencia-link">
+          <span class="experiencia-link__texto">Mostrar las 7 experiencias</span><i
+            class="experiencia-link__icono ri-arrow-right-line"></i>
+        </div>
+      </div>
+      <div class="usuario-descripcion">
+        <h2 class="usuario-descripcion__titulo">Educación</h2>
+        <div class="experiencia">
+          <img class="experiencia__imagen" src="https://i.pinimg.com/736x/73/99/49/7399495cacf42f0b49f55a73e0761815.jpg"
+            alt="">
+          <div class="experiencia__descripcion">
+            <h3 class="experiencia__titulo">Universidad Stanford</h3>
+            <b class="experiencia__tiempo">BSEE, Ingeniería Eléctrica</b>
+            <b class="experiencia__tiempo educación">2022 - 2028</b>
+            <hr>
+          </div>
+        </div>
+        <div class="experiencia">
+          <img class="experiencia__imagen"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqn-ZjtZuIbBCzawJetckI3U2YvWcFz48-bw&s" alt="">
+          <div class="experiencia__descripcion">
+            <h3 class="experiencia__titulo">Universidad del Noroeste</h3>
+            <b class="experiencia__tiempo">Ciencias de la Computación</b>
+            <b class="experiencia__tiempo educación">2015 - 2018</b>
+            <hr>
+          </div>
+        </div>
+        <div class="experiencia">
+          <img class="experiencia__imagen"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ43CTWbPBcK3eN9o9fN4UNw87KOG01EWNOmA&s" alt="">
+          <div class="experiencia__descripcion">
+            <h3 class="experiencia__titulo">Universidad Harvart</h3>
+            <b class="experiencia__tiempo">Senior High Scholl</b>
+            <b class="experiencia__tiempo educación">2005 - 2015</b>
+          </div>
+        </div>
+      </div>
+      <div class="usuario-descripcion">
+        <h2 class="usuario-descripcion__titulo">Habilidades</h2>
+        <a class="usuario-descripcion__boton" href="#">Liderazgo</a>
+        <a class="usuario-descripcion__boton" href="#">Diseñador web</a>
+        <a class="usuario-descripcion__boton" href="#">Desarrolladores</a>
+        <a class="usuario-descripcion__boton" href="#">Comunicaciones</a>
+        <a class="usuario-descripcion__boton" href="#">UI/UX</a>
+        <a class="usuario-descripcion__boton" href="#">Planificación</a>
+        <a class="usuario-descripcion__boton" href="#">Codigo</a>
+        <a class="usuario-descripcion__boton" href="#">JavaScript</a>
+        <a class="usuario-descripcion__boton" href="#">Python</a>
+        <a class="usuario-descripcion__boton" href="#">Emprendimiento</a>
+      </div>
+      <div class="usuario-descripcion">
+        <h2 class="usuario-descripcion__titulo">Idiomas</h2>
+        <a class="usuario-descripcion__idioma" href="#">Python</a>
+        <a class="usuario-descripcion__idioma" href="#">Emprendimiento</a>
+      </div>
+    </div>
+    <div class="sidebar-perfil">
+      <div class="sidebar-pegajoso">
+        <div class="anuncio-cebra">
+          <small class="anuncio-cebra__palabra">Ad . . .</small>
+          <p class="anuncio-cebr__parrafo">Domina 5 principios del diseño web</p>
+          <div class="anuncio-cebra__imagenes">
+            <img class="anuncio-cebra__foto"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkljs1S5Z1JBnaaUTHVKEnzvGgpEmykrS_QA&s" alt="">
+            <img class="anuncio-cebra__foto" src="https://logodownload.org/wp-content/uploads/2015/02/xiaomi-logo-1.png"
+              alt="">
+          </div>
+          <b class="anuncio-cebra__marca-info">Marca y demanda en Xiaomi</b>
+          <a class="anuncio-cebra__leer-mas" href="#">Más información</a>
+        </div>
+        <div class="sidebar-gente">
+          <h3 class="sidebar-gente__titulo">Personas que quizás conozcas</h3>
+          <div class="sidebar-gente-descripcion">
+            <img class="sidebar-gente-descripcion__foto"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtRntvn5D1H6cG2ZFK4p6Aq_ZbBOeeWnIF7A&s" alt="">
+            <div class="sidebar-gente-informacion">
+              <h2 class="sidebar-gente-informacion__nombre" >Samuel Tony</h2>
+              <p class="sidebar-gente-informacion__parrafo">Jefa de Marketing en Alibaba</p>
+              <a href="#">Conectar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"></div>
+  </main>
 </body>
+
 </html>
