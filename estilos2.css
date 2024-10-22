@@ -177,17 +177,24 @@
 }
 .sidebar-gente{
   background-color: var(--color_blanco);
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .sidebar-gente__titulo{
   font-size: 16px;
   font-weight: 600;
-  margin: 10px 0 20px;
   color: var(--color_gris_oscuro);
+  padding-top: 25px;
+  margin-bottom: 30px;
 }
 .sidebar-gente-descripcion__foto{
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  margin-right: 8px;
+  margin-top: 3px;
 }
 .sidebar-gente-descripcion{
   display: flex;
@@ -195,7 +202,26 @@
 .sidebar-gente-informacion__nombre{
   font-size: 16px;
   font-weight: 500;
+  color: var(--color_gris_oscuro);
 }
 .sidebar-gente-informacion__parrafo{
-  font-size: 12px;
+    font-size: 12px;
+}
+.sidebar-gente-informacion__link{
+    text-decoration: none;
+    font-size: 12px;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 25px;
+    border: 1px solid var(--color_gris_oscuro);
+    border-radius: 30px;
+    font-weight: 500;
+    color: var(--color_gris_oscuro);
+}
+.footer{
+    grid-area: footer;
+}
+.pie-pagina{
+    padding: 15px 25px;
+    text-align: center
 }
