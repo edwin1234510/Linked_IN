@@ -637,9 +637,6 @@
   .search__barra-buscador{
     display: none;
   }
-  .container-icono__icono{
-    width: 25px;
-  }
 }
 @media(max-width:1200px){
   .sidebar-right{
