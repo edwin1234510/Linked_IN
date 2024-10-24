@@ -625,6 +625,11 @@
   height: 35px;
   margin-right: 13px;
 }
+@media(max-width:840px){
+  .container_icono__texto{
+    display: none;
+  }
+}
 @media(max-width:725px){
   .search{
     background-color: var(--color_blanco);
@@ -632,8 +637,8 @@
   .search__barra-buscador{
     display: none;
   }
-  .container_icono__texto{
-    display: none;
+  .container-icono__icono{
+    width: 25px;
   }
 }
 @media(max-width:1200px){
